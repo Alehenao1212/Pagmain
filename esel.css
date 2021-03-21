@@ -1,0 +1,122 @@
+.titi{
+position: absolute;
+top: 20px;
+left: 650px;
+}
+
+.fde{
+width: 800px;
+height: 500vh;
+display: flex;
+justify-content: center;
+align-items: center;
+top: 180px;
+left: 450px;
+}
+
+.boxde{
+width: 800px;
+height: 500px;
+left: 450px;
+position: absolute;
+overflow: hidden;
+top: 180px;
+margin: 20px;
+border:1px solid #000
+}
+
+.boxde img{
+width: 100%;
+height: 100%;
+}
+
+.capadex{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: 
+rgba(178, 232, 101, 0.51);
+display: flex;
+justify-content: center;
+align-items: center;
+color: #000;
+transform: scale(0);
+transition: .3s ease;
+}
+.boxde:hover .capadex{
+    transform: scale(1);
+}
+
+.eldos{
+	position: absolute;
+	top: 900px; 
+	left: 50px;
+}
+
+.expla{
+	position: absolute;
+	top: 860px; 
+	left: 900px;
+}
+
+.formu{
+	position: absolute;
+	top: 1300px; 
+	left: 50px;
+}
+
+
+.fos{
+width: 500px;
+height: 300vh;
+display: flex;
+justify-content: center;
+align-items: center;
+top: 1280px;
+left: 900px;
+}
+
+.boxfos{
+width: 500px;
+height: 300px;
+left: 900px;
+position: absolute;
+overflow: hidden;
+top: 1280px;
+margin: 20px;
+border:1px solid #000
+}
+
+.boxfos img{
+width: 100%;
+height: 100%;
+}
+
+.capafos{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: 
+rgba(0,0,0,0.5);
+display: flex;
+justify-content: center;
+align-items: center;
+color: #fff;
+transform: scale(0);
+transition: .3s ease;
+}
+.boxfos:hover .capafos{
+    transform: scale(1);
+}
+
+
+.atras {
+left: -130px;
+top: 500px;
+position: fixed;
+}
+
