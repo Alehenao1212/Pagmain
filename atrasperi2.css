@@ -1,0 +1,11 @@
+.atras {
+left: -130px;
+top: 500px;
+position: fixed;
+}
+
+.trabajos{
+ left:50px;
+ top:200px;
+ position:absolute;
+}
